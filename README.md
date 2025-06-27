@@ -5,7 +5,7 @@ A responsive and modern **portfolio website** built using **HTML, CSS, and JavaS
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/nishita-rana/Netflix-Clone/blob/80faa47631ef70e9abc4728d191207492c913654/images/Screenshot%202025-06-27%20181944.png" alt="Car Marketplace Banner" width="100%" />
+  <img src="https://github.com/nishita-rana/Portfolio/blob/1f72ff65da93d1ba7f4732587323828225020809/images/Screenshot%202025-06-27%20181944.png" alt="Car Marketplace Banner" width="100%" />
 </p>
 
 ## 🔥 Features
