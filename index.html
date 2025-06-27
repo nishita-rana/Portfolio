@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nishita Rana | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header" id="home">
+    <nav class="navbar">
+      <div class="logo">Nishita Rana</div>
+  <div class="hamburger" onclick="toggleMenu()">
+      ☰
+    </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="hero-content" >
+      <h1>Nishita Rana</h1>
+      <h3>Final-Year B.Tech Student | Aspiring Software Developer</h3>
+      <p>Passionate about software development, artificial intelligence, and web technologies. Currently pursuing Electronics and Communication Engineering at NIT Andhra Pradesh.</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn primary">Learn More About Me</a>
+        <a href="#contact" class="btn outline">Get In Touch</a>
+        <a href="Documents\Nsihita_Rana_Resume.pdf" class="btn outline" download>Download Resume</a>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+<section id="about" class="about-section" >
+  <h2 class="section-title">About Me</h2>
+  <div class="about-container">
+    <div class="about-img">
+      <img src="images\image.jpg" alt="Nishita Rana" />
+    </div>
+    <div class="about-text">
+      <h3>Hello! I'm Nishita Rana</h3>
+      <p>
+        I'm a pre-final year B.Tech student in Electronics and Communication Engineering at NIT Andhra Pradesh, graduating in 2026. My journey in technology has been driven by curiosity and a passion for creating innovative solutions.
+      </p>
+      <p>
+        While my academic background is in ECE, I've developed a strong interest in software development, artificial intelligence, and web technologies. I believe in the power of interdisciplinary knowledge and how electronics and software can work together to create amazing products.
+      </p>
+      <p>
+        I'm always eager to learn new technologies, work on challenging projects, and collaborate with like-minded individuals who share my passion for innovation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2 class="section-title">Skills & Technologies</h2>
+  <div class="skills-grid">
+
+    <!-- Programming Languages -->
+    <div class="skill-card">
+      <h3><span>🧩</span> Programming Languages</h3>
+      <div class="tags">
+        <span>Python</span><span>JavaScript</span><span>C++</span>
+        <span>Java (Beginner) </span>
+      </div>
+    </div>
+
+    <!-- Web Technologies -->
+    <div class="skill-card">
+      <h3><span>🌐</span> Web Technologies</h3>
+      <div class="tags">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+      </div>
+    </div>
+
+    <!-- Course Work -->
+    <div class="skill-card">
+      <h3><span>🔌</span> Coursework</h3>
+      <div class="tags">
+        <span>DataBase Management System</span><span>Data Structures & Algorithms</span><span>OOPs</span>
+        <span>Computer Networks</span><span>Operating Systems</span>
+      </div>
+    </div>
+
+    <!-- Libraries & Frameworks -->
+    <div class="skill-card">
+      <h3><span>🛠️</span> Libraries & Frameworks</h3>
+      <div class="tags">
+        <span>Tensorflow</span><span>Keras</span>
+        <span>NumPy</span><span>Scikit-learn</span><span>OpenCV</span>
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-card">
+      <h3><span>🤝</span> Soft Skills</h3>
+      <div class="tags">
+        <span>Problem Solving</span><span>Teamwork</span>
+        <span>Communication</span><span>Project Management</span>
+        <span>Adaptability</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="images\portfolio.jpeg" alt="Personal Portfolio Website " />
+      <div class="project-content">
+        <h3>Personal Portfolio Website</h3>
+        <p>Developed a responsive portfolio to showcase projects, skills, and contact info with a clean, modern UI.Implemented mobile-first design principles to ensure seamless viewing across devices.
+</p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Javascript</span>
+        </div>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images\Netflix clone.png" alt="Netflix Clone " />
+      <div class="project-content">
+        <h3>Netflix Clone </h3>
+        <p>Recreated Netflix’s homepage with responsive layout and visually accurate UI components. Used HTML and CSS to replicate layout, styling, and responsive design.
+ </p>
+        <div class="project-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="images\Heartbeat sensor project.png" alt="IoT-Based Heart Rate Monitoring" />
+      <div class="project-content">
+        <h3>IoT-Based Heart Rate Monitoring System </h3>
+        <p>Designed a heart rate monitoring system with ML integration, collecting over 2000 data points to train models for real-time health condition prediction. Implemented feature extraction and continuous model updates, improving predictive accuracy over time for early detection of potential cardiac anomalies.</p>
+        <div class="project-tags">
+          <span> ESP8266</span>
+          <span>Blynk</span>
+          <span>Arduino</span>
+          <span> DFRobot Heart Rate Sensor</span>
+        </div>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project  -->
+    <div class="project-card">
+      <img src="images\chatbot.jpg" alt="Healthcare Chatbot (NLP-Based)" />
+      <div class="project-content">
+        <h3>Healthcare Chatbot (NLP-Based) </h3>
+        <p>Built an AI-powered chatbot using TensorFlow, NLP, and a Feedforward Neural Network (FNN) to assist users with healthcare queries.Trained and fine-tuned the model in Jupyter Notebook, achieving high accuracy with a small dataset.</p>
+        <div class="project-tags">
+          <span>TensorFlow</span>
+          <span> Python</span>
+          <span> NLP</span>
+          <span> Keras </span>
+        </div>
+        <div class="project-links">
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Work Experience Section -->
+<section id="experience" class="timeline-section">
+  <h2 class="section-title">Work Experience</h2>
+  <div class="timeline">
+
+    <!-- Experience 1 -->
+    <div class="timeline-item left">
+      <div class="timeline-card">
+        <h3>Machine Learning and Quantum Computing Intern</h3>
+        <h4>IISER Bhopal <span> May 2025 – July 2025</span></h4>
+        <p>Worked on a deep learning project to classify human actions from video sequences. Utilized Convolutional Neural Networks (CNN) for spatial feature extraction and Long Short-Term Memory (LSTM) networks for temporal sequence modeling. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="timeline-section">
+  <h2 class="section-title">Education</h2>
+  <div class="timeline">
+
+    <!-- Education 1 -->
+    <div class="timeline-item left">
+      <div class="timeline-card">
+        <h3>B.Tech in Electronics and Communication Engineering</h3>
+        <h4>NIT Andhra Pradesh <span>(2022 – 2026)</span></h4>
+        <p>CGPA: 7.13</p>
+      </div>
+    </div>
+
+    <!-- Education 2 -->
+    <div class="timeline-item right">
+      <div class="timeline-card">
+        <h3>Higher Secondary Education (12th Grade)</h3>
+        <h4>Sacred Heart Convent School, Chandausi Moradabad,UP <span>(2019 – 2020)</span></h4>
+        <p>Percentage: 93.75%. PCMB (Physics, Chemistry, Mathematics, Biology).</p>
+      </div>
+    </div>
+
+    <!-- Education 3 -->
+    <div class="timeline-item left">
+      <div class="timeline-card">
+        <h3>Secondary Education (10th Grade)</h3>
+        <h4>Sacred Heart Convent School, Chandausi Moradabad,UP <span>(2017 – 2018)</span></h4>
+        <p>Percentage: 92.8%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certificates" class="certifications-section">
+  <h2 class="section-title">Certifications & Achievements</h2>
+  <div class="certifications-grid">
+
+    <div class="cert-card">
+      <div class="cert-icon">🎓</div>
+      <h3>Smart India Hackathon</h3>
+      <span>September 2024</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">🤖</div>
+      <h3>Leadership at AI & Robotics Club, NIT Andhra Pradesh</h3>
+      <p> Executive Member </p>
+      <span>July 2024</span>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">⚛️</div>
+      <h3>NPTEL Certification</h3>
+      <p>DataBase Management System</p>
+      <span>October 2024</span>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Get In Touch</h2>
+  <div class="contact-container">
+
+    <!-- Left: Contact Info -->
+    <div class="contact-info">
+      <h3>Let's Connect!</h3>
+      <p>I'm always excited to discuss new opportunities, collaborate on interesting projects, or simply chat about technology and innovation. Feel free to reach out!</p>
+
+      <ul>
+        <li><i class="fas fa-envelope"></i> Email<br><a href="nishitarana17@gmail.com">nishitarana17@gmail.com</a></li>
+        <li><i class="fas fa-phone-alt"></i> Phone<br>+91 6396573467</li>
+        <li><i class="fas fa-map-marker-alt"></i> Location<br>Tadepalligudem, Andhra Pradesh, India</li>
+        <li><i class="fab fa-linkedin"></i> LinkedIn<br><a href="https://linkedin.com/in/nishita-rana" target="_blank">linkedin.com/in/nishita-rana</a></li>
+      </ul>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="your.email@example.com" required />
+        <input type="text" placeholder="What’s this about?" />
+        <textarea placeholder="Your message here..." rows="5"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="social-icons">
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fas fa-envelope"></i>
+    <i class="fas fa-phone-alt"></i>
+  </div>
+  <p>© 2025 Nishita Rana. All rights reserved. Built with passion and code.</p>
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
